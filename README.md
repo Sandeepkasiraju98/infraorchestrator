@@ -101,5 +101,5 @@ Expected response:
 
 ✍️ Built as a starter project to showcase **autonomous infra orchestration**.
 
-```
+---
 
