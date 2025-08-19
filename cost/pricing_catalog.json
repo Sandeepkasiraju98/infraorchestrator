@@ -1,0 +1,8 @@
+{
+  "rds": {
+    "db.t3.micro": {
+      "on_demand_per_hour": 0.021
+    },
+    "gp2_per_gb_month": 0.1
+  }
+}

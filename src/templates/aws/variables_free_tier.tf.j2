@@ -1,0 +1,14 @@
+variable "table_name" {
+  description = "The name of the DynamoDB table"
+  type        = string
+  default     = "infraorchestrator_demo"
+}
+
+variable "tags" {
+  description = "Tags to apply to the DynamoDB table"
+  type        = map(string)
+  default = {
+    Environment = "dev"
+    Project     = "infraorchestrator"
+  }
+}

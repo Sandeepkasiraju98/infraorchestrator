@@ -1,0 +1,14 @@
+resource "aws_db_instance" "pg" {
+  allocated_storage    = {{ db_storage_gb }}
+  engine               = "postgres"
+  instance_class       = "{{ db_instance }}"
+  db_name              = "app"
+  username             = var.db_user
+  password             = var.db_pass
+  skip_final_snapshot  = true
+  publicly_accessible  = false
+  tags = {
+    owner = "{{ tags.owner }}"
+    env   = "{{ tags.env }}"
+  }
+}

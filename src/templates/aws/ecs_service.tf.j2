@@ -1,0 +1,13 @@
+# placeholder ECS service (no real resources for MVP)
+terraform {
+  required_version = ">= 1.4.0"
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+locals {
+  name     = "{{ service_name }}"
+  replicas = {{ replicas }}
+}

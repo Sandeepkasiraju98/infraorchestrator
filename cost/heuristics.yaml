@@ -1,0 +1,4 @@
+cost_preferences:
+  prefer_arm_instances: true
+  prefer_spot: false
+  default_replicas: 2

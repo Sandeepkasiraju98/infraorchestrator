@@ -1,0 +1,26 @@
+[project]
+name = "infraorchestrator"
+version = "0.1.3"
+description = "Autonomous Cloud Infra Agent (MVP)"
+authors = [{name = "You"}]
+requires-python = ">=3.11"
+dependencies = [
+  "jinja2",
+  "langgraph",
+  "langchain-core",
+  "chromadb",
+  "click",
+]
+
+[project.scripts]
+infra-orch = "orchestrator.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

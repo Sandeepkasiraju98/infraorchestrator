@@ -1,0 +1,4 @@
+# Reference existing DynamoDB table
+data "aws_dynamodb_table" "table" {
+  name = var.table_name
+}

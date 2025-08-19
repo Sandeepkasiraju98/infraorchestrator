@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: infraorchestrator
+Version: 0.1.3
+Summary: Autonomous Cloud Infra Agent (MVP)
+Author: You
+Requires-Python: >=3.11
+Requires-Dist: jinja2
+Requires-Dist: langgraph
+Requires-Dist: langchain-core
+Requires-Dist: chromadb
+Requires-Dist: click

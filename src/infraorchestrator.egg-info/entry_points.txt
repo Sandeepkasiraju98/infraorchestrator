@@ -1,0 +1,2 @@
+[console_scripts]
+infra-orch = orchestrator.cli:main
