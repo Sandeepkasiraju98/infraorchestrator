@@ -26,7 +26,7 @@ This is an MVP (minimum viable product) to showcase how natural-language infra p
    ```bash
    git clone https://github.com/<your-username>/infraorchestrator.git
    cd infraorchestrator
-````
+
 
 2. Create and activate a virtual environment:
 
